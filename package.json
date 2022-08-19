@@ -1,0 +1,14 @@
+{
+  "name": "mysql-backend",
+  "packageManager": "yarn@3.2.2",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^9.1.0",
+    "mysql2": "^2.3.3"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "type": "module"
+}
