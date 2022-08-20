@@ -186,6 +186,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs@npm:^0.0.1-security":
+  version: 0.0.1-security
+  resolution: "fs@npm:0.0.1-security"
+  checksum: 53c6230e1faae9fa32c1df82c16a84b51b1243d20f3da2b64bd110bb472b73b9185169b703e008356e3cdc92d155088b617d9d39a63b5227a30b3621baad7f5d
+  languageName: node
+  linkType: hard
+
 "generate-function@npm:^2.3.1":
   version: 2.3.1
   resolution: "generate-function@npm:2.3.1"
@@ -334,6 +341,7 @@ __metadata:
   dependencies:
     console.table: ^0.10.0
     dotenv: ^16.0.1
+    fs: ^0.0.1-security
     inquirer: ^9.1.0
     mysql2: ^2.3.3
   languageName: unknown
