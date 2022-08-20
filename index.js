@@ -79,8 +79,8 @@ async function addEmployee() {
         },
         {
             type: 'input',
-            message: 'Enter the new employee\'s surname: ',
-            name: 'surname'
+            message: 'Enter the new employee\'s lastname: ',
+            name: 'lastname'
         },
         {
             type: 'list',
@@ -107,7 +107,7 @@ async function addEmployee() {
     PROMPT[3].choices.push({name: 'None', value: null});
 
     const response = await inquirer.prompt(PROMPT);
-    await dbi.addEmployee(response.name, response.surname, response.role, response.manager);
+    await dbi.addEmployee(response.name, response.lastname, response.role, response.manager);
 }
 
 async function updateEmployeeRole() {
